@@ -1,6 +1,3 @@
-print('Setting UP')
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 from utlis import *
 import sudukoSolver
 
