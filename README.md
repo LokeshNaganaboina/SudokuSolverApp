@@ -7,14 +7,14 @@ This repository contains a web-based Sudoku Solver implemented using the OpenCV 
 Clone the repository:
 
 ```bash
-git clone https://github.com/LokeshYadav-01/SudokuSolverApp.git
+git clone https://github.com/LokeshNaganaboina/SudokuSolverApp.git
 ```
 Set up a virtual environment (optional but recommended):
 
 ```bash
-python -m venv venv
-source venv/bin/activate #For Linux or macOS users
-venv\Scripts\activate #For Windows users
+python -m venv venv-name
+source venv-name/bin/activate #For Linux or macOS users
+venv-name\Scripts\activate #For Windows users
 ```
 
 Install the necessary packages to run this project from requirements.txt
