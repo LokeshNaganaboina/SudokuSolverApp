@@ -1,6 +1,6 @@
 # Sudoku Solver using OpenCV
 
-This repository contains a web-based Sudoku Solver implemented using the OpenCV library for image processing and the Flask framework for web development in Python. The application utilizes AJAX (Asynchronous JavaScript and XML) to handle user interactions and dynamic updates, allowing for a seamless and interactive experience. The goal of this project is to provide a user-friendly tool for solving Sudoku puzzles automatically using computer vision techniques.
+This repository contains a web-based Sudoku Solver implemented using the OpenCV library for image processing and streamlit for deployment. The goal of this project is to provide a user-friendly tool for solving Sudoku puzzles automatically using computer vision techniques.
 
 ## Installation
 
@@ -20,17 +20,17 @@ venv\Scripts\activate #For Windows users
 Install the necessary packages to run this project from requirements.txt
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 To run the app, run the following command
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 ## Usage
 Run the Sudoku Solver application:
 ```python
-python app.py
+streamlit run app.py
 ```
 Select an image: You can select to input an image file containing an unsolved sudoku puzzle. Ensure that the image is of good quality and images should be recognized.
 
@@ -46,12 +46,7 @@ Digit Recognition: Each cell of the grid is isolated, and digit recognition is p
 
 Backtracking Algorithm: The recognized puzzle is then solved using a backtracking algorithm, a common approach for solving Sudoku puzzles.
 
-Flask Web Server: Flask acts as a web server. It listens for incoming requests from the user's web browser and responds accordingly. When the user accesses the web application, Flask serves the HTML, CSS, and JavaScript files to create the front-end interface.
 
-AJAX Handling: AJAX requests handle interactions between the front-end and back-end, enabling real-time updates without full page reloads.
-
-Here is a sample image of the application on how it looks
-![SudokuSolverApp](https://github.com/LokeshYadav-01/SudokuSolverUsingOpenCV/assets/69782328/b1479342-0e81-476f-8357-189fbaebf421)
 
 ##
 
